@@ -1,0 +1,1 @@
+0 * * * * /Users/bmmorris/anaconda/bin/python /Users/bmmorris/git/jobot/postEvents.py
