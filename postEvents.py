@@ -10,10 +10,10 @@ postdocs = soup.find_all('table')[2]
 ### send tweet!
 ### The Twitter-Posting Script... ###
 CONSUMER_KEY = 'y4AbQJJYvoHjNl8mJfsNlKhBR'
-CONSUMER_SECRET = open('consumer_secret.txt', 'r').read()
+CONSUMER_SECRET = open('consumer_secret.txt', 'r').read().strip()
 
 ACCESS_KEY = '1043255268757258240-IcNlZPQADDUKrxXlBwmFSydfQ6auzR'
-ACCESS_SECRET = open('access_secret.txt', 'r').read()
+ACCESS_SECRET = open('access_secret.txt', 'r').read().strip()
 
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
